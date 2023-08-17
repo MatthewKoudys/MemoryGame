@@ -1,0 +1,26 @@
+body {
+	background: #405416;
+	margin: 0;
+    font-family: 'Caprasimo', cursive;
+}
+
+h1{
+    text-align: center;
+    color:#faed8f
+}
+.tiles {
+	margin: 48px auto;
+	width: max-content;
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	gap: 16px;
+	box-sizing: border-box;
+}
+
+.tile {
+	height: 100px;
+	background-color: #faed8f;
+	border: 3px solid #ff616b;
+	cursor: pointer;
+    border-radius: 3px;
+}
